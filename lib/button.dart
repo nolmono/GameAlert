@@ -10,12 +10,13 @@ class Button extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(20.0),
-      margin: const EdgeInsets.all(20.0),
+      //button
+      padding: const EdgeInsets.all(0.0),
+      margin: const EdgeInsets.all(10.10),
       child: RaisedButton(
         textColor: Colors.black,
         color: Colors.white,
-        onPressed: () => null,
+        onPressed: () => null, //to the game download page
         child: Text(button),
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(20.0)),
